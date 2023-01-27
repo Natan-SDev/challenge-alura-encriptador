@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;500;700&family=Noto+Sans+KR:wght@500&family=Passions+Conflict&family=Press+Start+2P&family=Prosto+One&family=Righteous&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;   
+} 
+
+.barra{
+    display: inline-block;
+    overflow: auto;
+    width: 100%;
+}
+
+.menu{
+    overflow: hidden;
+    border: 3px solid black;
+    width: 800px;
+    margin-right: 5px;
+    margin-left: 1000px;
+}
+
+.imgfyf{
+    display: inline-block;
+    overflow: auto;
+    width: 100%;       
+}
+
+.imgf{ 
+    display:block;
+    float: right;
+    position: relative;
+    width: 40%;
+    height: 40%;
+    margin-bottom: 450px;
+    margin-left: 250px;
+    margin-top: -7%;    
+    
+}
+
+.imglado{
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 45px;   
+}
+
+
+
+.ladoalado{
+    display: block;
+    float: right;
+    margin-left: 8px;
+    color: #A9A9A9;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 8px;     
+    padding: 4px;     
+}
+
+
+
+.ladoalado:hover{
+   
+    background-color: black;
+    color:rgb(90, 228, 168);
+}
+
+.marca{
+    display: block;
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    color:black;
+    font-size: 45px;
+    font-family: 'Righteous', cursive;
+    font-weight:lighter;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.subtitulo{    
+    margin-left: 53px;
+    margin-top: 150px;
+    width: 33%;
+    height: 33%;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:  'Righteous', cursive;
+    text-align: right;
+}
+
+.descricao{
+    width: 33%;
+    height: 33%;
+    text-align: right;
+    font-size: 18px;
+    font-family:  'Righteous', cursive;
+    margin-left: 45px;
+    padding: 5px;
+    word-spacing: 4px;
+    line-height: 29px;
+}
+
+#perguntaindexpri{
+    width: 33%;
+    height: 33%;
+    font-family: 'Prosto One', cursive;
+    padding: 30px;
+    cursor:help;
+    margin-left: 115px;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(90, 228, 168);;
+    font-size: 18px;
+    font-family: 'Prosto One', cursive;
+    letter-spacing: 1px;
+}
+
+.btn1{   
+    background-color: black;
+    width: 250px;
+    height: 55px;
+    border-radius: 15px;
+    margin-left: 75px;            
+}
+
+.btn1:hover{
+    background-image: url(img/DlGpnB5.jpg);
+    background-size: cover;
+    scale: 1.1;    
+}
+
+.btns:hover :not(:hover){
+    opacity: 0.3;
+}  
+
+a:hover{
+    color: white;
+    text-decoration: dotted;
+}
+
+.assinatura{
+    font-family: 'Passions Conflict', cursive;
+    font-size:xx-large;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: -75px;   
+}
+
+.criptografar{  
+    overflow: auto;
+    width: 100%; 
+}
+
+.div1{
+    display: block;
+    float: left;
+    margin-top: 135px;
+    margin-left: 53px;
+}
+
+.div2{
+    display: block;
+    float: right;
+    margin-top: 50px;
+    margin-right: 235px;
+    text-align: center;
+}
+
+.dica{
+    width: 450px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:  'Righteous', cursive;
+    text-align: right;
+}
+
+.subtl{
+    color:rgb(90, 228, 168);
+    margin-top: 50px;
+    width: 400px;
+    margin-left: 50px;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:  'Righteous', cursive;
+    text-align: right;   
+}
+
+.desc{
+    width: 50%;
+    text-align: right;
+    font-size: 18px;
+    font-family:  'Righteous', cursive;
+    margin-left: 45px;
+    padding: 5px;
+    word-spacing: 4px;
+    line-height: 29px;
+}
+
+
+.alert{ 
+    font-family: 'Prosto One', cursive;
+    font-size:18px;
+    font-weight: bold;
+}
+
+#txtentrada, #txtentrada1 {
+    border: 4px solid rgb(90, 228, 168);
+    border-radius:25px;  
+}
+
+#btncri, #btncri1 {   
+    color:rgb(90, 228, 168);
+    font-family: 'Prosto One', cursive;
+    font-size:18px;
+    background-color: black;
+    width: 250px;
+    height: 55px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+#btncri:hover, #btncri1:hover {
+    background-image: url(img/DlGpnB5.jpg);
+    background-size: cover;
+}
+
+#txtsaida, #txt2 {
+    border: 4px solid rgb(90, 228, 168);
+    border-radius:25px;
+    background-color:rgb(90, 228, 168);   
+}
+
+#btncopy, #btnlimp, #btncopy2, #btnlimp2  {
+
+    color:rgb(90, 228, 168);
+    font-family: 'Prosto One', cursive;
+    font-size:16px;
+    background-color: black;
+    width: 75px;
+    height: 75px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+#btncopy:hover, #btnlimp:hover, #btncopy2:hover, #btnlimp2:hover   {
+    background-image: url(img/DlGpnB5.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.subtl1{
+    margin-top: 50px;
+    width: 450px;
+    height: 33%;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:  'Righteous', cursive;
+    text-align: right;
+    color:rgb(90, 228, 168);
+}
+
+#txt13{
+    margin-top: 50px;
+    width: 450px;
+    height: 33%;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:  'Righteous', cursive;
+    text-align: right;
+    color:rgb(90, 228, 168);
+    text-align: center;
+    font-size: 50px;
+}

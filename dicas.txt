@@ -1,0 +1,324 @@
+criar um compartilhar msg por email ou rede social
+
+background: url(img/DlGpnB5.jpg) coloca a imagem completa atrás
+
+
+um botaão com class e hiperlink
+ <button class="btncript"><a class="xx" href="criptografar.html">Criptografar</a></button>
+
+ gerar um qrcode da msg 
+
+  margin-left: auto;
+    margin-right: auto; centraliza o objeto
+
+    no botão copiar quero colocar tipo::
+
+    eu Natan estou enviando essa msg codificada aqui: dasdhajskdahd segue o link onde vc pode codificar ela
+
+    quem sabe um login e senha???
+
+
+<script> 
+            var chave = prompt("Crie uma chave para o receptor");
+            alert(" Não esqueça da sua chave, ela será necessária para que o receptor possa descriptografar a mensagem. Sua chave é " + chave)
+        </script>
+
+    //<script>document.write("Chave da mensagem" + chave )</script>
+
+
+
+serve pra direcionAR O ICONE
+    <span class="material-symbols-outlined">key</span>
+     <div class="imgff">
+            
+        </div>
+
+
+
+let txtentry1 = getElementById("txtentrada");
+let txtsaid1 = getElementById("txtsaida");
+//var copiar = getElementById("btncopy");
+const limpar = getElementById("btnlimp");
+
+
+function copiartxt(){
+
+    navigator.clipboard.writeText(textoSaida.value);
+    
+  }
+
+function limpartxt(){
+
+    document.getElementById('txtentrada').value="";
+    document.getElementById('txtsaida').value="";
+
+}
+
+btnlimp.addEventListener("click" , (event)=> {
+    event.preventDefault();
+    limpartxt();
+  })
+
+
+
+var txtentry1 = document.getElementById("txtentrada");
+var txtsaid1 = document.getElementById("txtsaida");
+var copiar = docuemnt.getElementById("btncopy");
+var limpar = document.getElementById("btnlimp");
+
+
+function copiartxt(){
+
+    navigator.clipboard.writeText(textoSaida.value);
+    
+}
+
+function limpartxt(){
+
+    document.getElementById('txtentrada').value="";
+    document.getElementById('txtsaida').value="";
+
+}
+
+btnlimp.addEventListener("click" , (event)=> {
+    event.preventDefault();
+    limpartxt();
+})
+
+
+
+String.prototype.toLowerCase(
+
+
+String.prototype.toLowerCase()
+
+.replaceAll("A", "#")
+      .replaceAll("E", "$")
+      .replaceAll("I", "%")
+      .replaceAll("O", "¨")
+      .replaceAll("U", "&")
+      .replaceAll("Á", "*")
+      .replaceAll("À", "(")
+      .replaceAll("É", ")")
+      .replaceAll("Ó", "-")
+      .replaceAll("Í", "_")
+      .replaceAll("Ú", "+")
+      .replaceAll("Q", "=")
+      .replaceAll("W", "§")
+      .replaceAll("R", "`")
+      .replaceAll("T","´")
+      .replaceAll("Y","{")
+      .replaceAll("P","[")
+      .replaceAll("S","ª")
+      .replaceAll("D", "^")
+      .replaceAll("F", "~")
+      .replaceAll("G", "}")
+      .replaceAll("H","]")
+      .replaceAll("J", "º")
+      .replaceAll("K", "<")
+      .replaceAll("L", ",")
+      .replaceAll("Ç", ">")
+      .replaceAll("Z", ".")
+      .replaceAll("X", ":")
+      .replaceAll("C", ";")
+      .replaceAll("V", "?")
+      .replaceAll("B", "/")
+      .replaceAll("N", "°")
+      .replaceAll("M", "??")
+      //minusculas
+      .replaceAll("a", "/#")
+      .replaceAll("e", "/$")
+      .replaceAll("i", "/%")
+      .replaceAll("o", "/¨")
+      .replaceAll("u", "/&")
+      .replaceAll("á", "/*")
+      .replaceAll("à", "/(")
+      .replaceAll("é", "/)")
+      .replaceAll("ó", "/-")
+      .replaceAll("í", "/_")
+      .replaceAll("ú", "/+")
+      .replaceAll("q", "/=")
+      .replaceAll("w", "/§")
+      .replaceAll("r", "/`")
+      .replaceAll("t","/´")
+      .replaceAll("y","/{")
+      .replaceAll("p","/[")
+      .replaceAll("s","/ª")
+      .replaceAll("d", "/^")
+      .replaceAll("f", "/~")
+      .replaceAll("g", "/}")
+      .replaceAll("h","/]")
+      .replaceAll("j", "/º")
+      .replaceAll("k", "/<")
+      .replaceAll("l", "/,")
+      .replaceAll("ç", "/>")
+      .replaceAll("z", "/.")
+      .replaceAll("x", "/:")
+      .replaceAll("c", "/;")
+      .replaceAll("v", "/?")
+      .replaceAll("b", "~/")
+      .replaceAll("n", "/°")
+      .replaceAll("m", "/??")
+      //numeros
+      .replaceAll("1", "'")
+      .replaceAll("2","!")
+      .replaceAll("3","@")
+      .replaceAll("4", "Q")
+      .replaceAll("5", "w")
+      .replaceAll("6","E")
+      .replaceAll("7","R")
+      .replaceAll("8","T")
+      .replaceAll("9","Y")
+      .replaceAll("0","U")
+
+      .replaceAll("#","A")
+    .replaceAll("$","E")
+    .replaceAll("%","I")
+    .replaceAll("¨","O")
+    .replaceAll("&","U")
+    .replaceAll("*","Á")
+    .replaceAll("(","À")
+    .replaceAll(")","É")
+    .replaceAll("-","Ó")
+    .replaceAll("_","Í")
+    .replaceAll("+","Ú")
+    .replaceAll("=","Q")
+    .replaceAll("§","W")
+    .replaceAll("`","R")
+    .replaceAll("´","T")
+    .replaceAll("{","Y")
+    .replaceAll("[","P")
+    .replaceAll("ª","S")
+    .replaceAll("^","D")
+    .replaceAll("~","F")
+    .replaceAll("}","G")
+    .replaceAll("]","H")
+    .replaceAll("º","J")
+    .replaceAll("<","K")
+    .replaceAll(",","L")
+    .replaceAll(">","Ç")
+    .replaceAll(".","Z")
+    .replaceAll(":","X")
+    .replaceAll(";","C")
+    .replaceAll("?","V")
+    .replaceAll("/","B")
+    .replaceAll("°","N")
+    .replaceAll("??","M")
+    //minusculas
+    .replaceAll("/#","a")
+    .replaceAll("/$","e")
+    .replaceAll("/%","i")
+    .replaceAll("/¨","o")
+    .replaceAll("/&","u")
+    .replaceAll("/*","á")
+    .replaceAll("/(","à")
+    .replaceAll("/)","é")
+    .replaceAll("/-","ó")
+    .replaceAll("/_","í")
+    .replaceAll("/+","ú")
+    .replaceAll("/=","q")
+    .replaceAll("/§","w")
+    .replaceAll("/`","r")
+    .replaceAll("/´","t")
+    .replaceAll("/{","y")
+    .replaceAll("/[","p")
+    .replaceAll("/ª","s")
+    .replaceAll("/^","d")
+    .replaceAll("/~","f")
+    .replaceAll("/}","g")
+    .replaceAll("/]","h")
+    .replaceAll("/º","j")
+    .replaceAll("/<","k")
+    .replaceAll("/,","l")
+    .replaceAll("/>","ç")
+    .replaceAll("/.","z")
+    .replaceAll("/:","x")
+    .replaceAll("/;","c")
+    .replaceAll("/?","v")
+    .replaceAll("~/","b")
+    .replaceAll("/°","n")
+    .replaceAll("/??","m")
+    //numeros
+    .replaceAll("'","1")
+    .replaceAll("!","2")
+    .replaceAll("@","3")
+    .replaceAll("Q","4")
+    .replaceAll("w","5")
+    .replaceAll("E","6")
+    .replaceAll("R","7")
+    .replaceAll("T","8")
+    .replaceAll("Y","9")
+    .replaceAll("U","0")
+    ☺♂☻▬♥!♦♣♠•◘○
+
+          .replaceAll("É", ")")
+      .replaceAll("Ó", "-")
+      .replaceAll("Í", "_")
+      .replaceAll("Ú", "+")
+      .replaceAll("Q", "=")
+      .replaceAll("W", "§")
+      .replaceAll("R", "`")
+      .replaceAll("T","´")
+      .replaceAll("Y","{")
+      .replaceAll("P","[")
+      .replaceAll("S","ª")
+      .replaceAll("D", "^")
+      .replaceAll("F", "~")
+      .replaceAll("G", "}")
+      .replaceAll("H","]")
+      .replaceAll("J", "º")
+      .replaceAll("K", "<")
+      .replaceAll("L", ",")
+      .replaceAll("Ç", ">")
+      .replaceAll("Z", ".")
+      .replaceAll("X", ":")
+      .replaceAll("C", ";")
+      .replaceAll("V", "☺")
+      .replaceAll("B", "/")
+      .replaceAll("N", "°")
+      .replaceAll("M", "♂")
+      //minusculas
+      .replaceAll("a", "☻")
+      .replaceAll("e", "▬")
+      .replaceAll("i", "Ì")
+      .replaceAll("o", "╬")
+      .replaceAll("u", "♥")
+      .replaceAll("á", "♣")
+      .replaceAll("à", "§")
+      .replaceAll("é", "♦")
+      .replaceAll("ó", "♠")
+      .replaceAll("í", "•")
+      .replaceAll("ú", "◘")
+      .replaceAll("q", "☼")
+      .replaceAll("w", "♫")
+      .replaceAll("r", "↓")
+      .replaceAll("t","◄")
+      .replaceAll("y","♂")
+      .replaceAll("p","↕")
+      .replaceAll("s","♪")
+      .replaceAll("d", "∟")
+      .replaceAll("f", "™")
+      .replaceAll("g", "©")
+      .replaceAll("h","®")
+      .replaceAll("j", "β")
+      .replaceAll("k", "Ϋ")
+      .replaceAll("l", "∂")
+      .replaceAll("ç", "∆")
+      .replaceAll("z", "⅛")
+      .replaceAll("x", "⅜")
+      .replaceAll("c", "⅝")
+      .replaceAll("v", "⅞")
+      .replaceAll("b", "₧")
+      .replaceAll("n", "sda")
+      .replaceAll("m", "da")
+      //numeros
+      .replaceAll("1", "'")
+      .replaceAll("2","!")
+      .replaceAll("3","@")
+      .replaceAll("4", "Q")
+      .replaceAll("5", "w")
+      .replaceAll("6","E")
+      .replaceAll("7","R")
+      .replaceAll("8","T")
+      .replaceAll("9","Y")
+      .replaceAll("0","U")
